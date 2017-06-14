@@ -2,7 +2,7 @@
  * Created by Dac Hai on 13/06/2017.
  */
 let User = require('../../../../Bootstraps/Models/User');
-let Functions = require('../../../Libs/functions');
+let Functions = require('../../../Libs/Functions');
 Functions = new Functions();
 module.exports = class registerModel{
 	getUserOne(query,callback){
